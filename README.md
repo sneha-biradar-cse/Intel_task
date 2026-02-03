@@ -54,3 +54,28 @@ The entire implementation is written **from scratch in C** using structures, poi
 ### Compile
 ```bash
 gcc tree.c -o tree
+
+## Output
+
+### Binary Search Tree (BST)
+
+Input:
+10, 5, 20, 3, 7, 15
+
+Output:
+3 5 7 10 15 20
+
+Inorder traversal confirms correct BST insertion.
+
+---
+
+### Red-Black Tree
+
+Input:
+10, 5, 20, 3, 7, 15
+
+Output:
+3(B) 5(R) 7(B) 10(B) 15(R) 20(B)
+
+Sorted output confirms BST property, and node colors confirm Red-Black Tree balancing.
+
