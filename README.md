@@ -1,37 +1,56 @@
-###Intel Internship – DSA Assignment
+# Intel Internship – DSA Assignment  
+BST and Red-Black Tree Implementation in C
 
-##Implemented Topics
-- Binary Search Tree (BST) Insertion
-- Red-Black Tree Insertion with Fix-Up
-- Inorder Traversal
+---
 
-##Language Used
-- C
+## 📌 Assignment Overview
 
-##Files
-- tree.c : BST and Red-Black Tree insertion with inorder traversal
+This assignment implements two fundamental data structures:
 
-##Output
-- Inorder traversal is used to verify correctness.
+- **Binary Search Tree (BST)**
+- **Red-Black Tree (RBT)**
 
-##Notes
-- This assignment demonstrates understanding of core DSA concepts such as trees, balancing, rotations, and dynamic memory management.
+The goal of the assignment is to demonstrate understanding of:
+- Tree-based data structures
+- Insertion algorithms
+- Tree balancing using rotations and recoloring
+- Use of inorder traversal to verify correctness
 
-##Output
+The entire implementation is written **from scratch in C** using structures, pointers, and dynamic memory allocation.
 
-Binary Search Tree (BST)
-Input: 10, 5, 20, 3, 7, 15
+---
 
-Output:
-3 5 7 10 15 20
+## 🧠 Implemented Topics
 
-Inorder traversal confirms correct BST insertion.
+- Binary Search Tree (BST) Insertion  
+- Inorder Traversal of BST  
+- Red-Black Tree Insertion  
+- Fix-up operations in Red-Black Tree  
+  - Recoloring
+  - Left Rotation
+  - Right Rotation  
 
-Red-Black Tree
-Input: 10, 5, 20, 3, 7, 15
+---
 
-Output:
-3(B) 5(R) 7(B) 10(B) 15(R) 20(B)
+## 💻 Language Used
 
-Sorted output confirms BST property, and node colors confirm Red-Black Tree balancing.
+- **C**
 
+---
+
+## 📂 Files
+
+- `tree.c`  
+  Contains:
+  - BST insertion and inorder traversal
+  - Red-Black Tree insertion with balancing logic
+  - Rotations and violation fixing
+  - Main function to test both trees
+
+---
+
+## ▶️ How to Compile and Run
+
+### Compile
+```bash
+gcc tree.c -o tree
