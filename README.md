@@ -1,23 +1,23 @@
-Intel Internship – DSA Assignment
+###Intel Internship – DSA Assignment
 
-Implemented Topics
+##Implemented Topics
 - Binary Search Tree (BST) Insertion
 - Red-Black Tree Insertion with Fix-Up
 - Inorder Traversal
 
-Language Used
+##Language Used
 - C
 
-Files
+##Files
 - tree.c : BST and Red-Black Tree insertion with inorder traversal
 
-Output
+##Output
 - Inorder traversal is used to verify correctness.
 
-Notes
+##Notes
 - This assignment demonstrates understanding of core DSA concepts such as trees, balancing, rotations, and dynamic memory management.
 
-Output
+##Output
 
 Binary Search Tree (BST)
 Input: 10, 5, 20, 3, 7, 15
